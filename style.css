@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.image {
+    width: 150px; /* Tamanho da imagem */
+    height: auto;
+}
+
+.text {
+    padding: 20px;
+    flex: 1; /* O texto ocupa o espaço restante */
+}
+
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column; /* Muda para coluna em telas pequenas */
+    }
+
+    .image {
+        width: 100%; /* Imagem ocupa toda a largura */
+    }
+}
