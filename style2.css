@@ -18,8 +18,8 @@ h1 {
     margin: 0;
 }
 
-/* Estilizando cada seção de herói */
-.hero {
+/* Estilizando cada seção de vilã */
+.villain {
     margin: 20px;
     background-color: white;
     border-radius: 8px;
@@ -27,7 +27,7 @@ h1 {
     padding: 20px;
 }
 
-/* Estilizando o título de cada herói */
+/* Estilizando o título de cada vilã */
 h2 {
     color: #333;
     text-align: center;
